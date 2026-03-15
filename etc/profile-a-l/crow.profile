@@ -7,8 +7,10 @@ include crow.local
 include globals.local
 
 mkdir ${HOME}/.config/crow
+mkdir ${HOME}/.config/crow-translate
 mkdir ${HOME}/.cache/gstreamer-1.0
 whitelist ${HOME}/.config/crow
+whitelist ${HOME}/.config/crow-translate
 whitelist ${HOME}/.cache/gstreamer-1.0
 
 include disable-common.inc
