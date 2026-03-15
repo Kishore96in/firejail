@@ -46,3 +46,9 @@ private-tmp
 private-srv none
 
 restrict-namespaces
+
+dbus-system none
+dbus-user filter
+dbus-user.own org.kde.CrowTranslate
+dbus-user.talk org.freedesktop.Notifications
+dbus-user.talk org.kde.StatusNotifierWatcher
